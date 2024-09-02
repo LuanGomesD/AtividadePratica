@@ -3,12 +3,12 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f0eaea;
+    background-color: #bff5dc;
 }
 
 header {
-    background-color: #e2b36cbe;
-    color: #760adb;
+    background-color: #2b2a2a;
+    color: #fff;
     padding: 10px 0;
     text-align: center;
 }
@@ -18,21 +18,22 @@ nav ul {
     padding: 0;
     margin: 0;
     display: flex;
-    justify-content: center; /* Centraliza os links no meio da página */
+    justify-content: center;; /* Centraliza os links no meio da página */
 }
 
 nav ul li {
-    margin: 0 15px; /* Espaçamento entre os links */
+    margin: 0 15px;/* Espaçamento entre os links */
+
 }
 
 nav ul li a {
-    color: #3307d457;
+    color: #fff;
     text-decoration: none;
     padding: 5px 10px;
 }
 
 nav ul li a:hover {
-    background-color: #eee9d1;
+    background-color: #555;
     border-radius: 5px;
 }
 
@@ -74,4 +75,20 @@ form button {
 
 form button:hover {
     background: #555;
+}
+
+/* Estilo para exibição de código */
+pre {
+    background-color: #f4f4f4;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow-x: auto; /* Permite rolagem horizontal se o código for muito longo */
+}
+
+code {
+    font-family: Consolas, Monaco, 'Courier New', monospace;
+    font-size: 1em;
+    color: #333;
+    display: block;
 }
